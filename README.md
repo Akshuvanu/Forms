@@ -4,25 +4,23 @@
 This repository contains the backend server for SlidelyFormApp.
 This repository contains a TypeScript-based Express server that provides endpoints for managing form submissions.
 
-### Prerequisites
-
-- Node.js installed (https://nodejs.org/)
-- npm package manager
 
 ### Getting Started
 
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/SlidelyFormAppBackend.git
-   cd SlidelyFormAppBackend
+   cd SlidelyFormAppBackend```
    
 2 install dependencies
   ```bash
-     npm install
+     npm install```
 
 3. start the server
   ```bash
-    npm start
+    npm start```
+
+
 
 Server Endpoints
 1./ping: GET request to check server status
