@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">slidelyformappbackend</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">node ./bin/www</PackageJsonScriptsStart>
+    <PackageJsonDependenciesTypesCors Condition="$(PackageJsonDependenciesTypesCors) == ''">^2.8.17</PackageJsonDependenciesTypesCors>
+    <PackageJsonDependenciesTypesExpress Condition="$(PackageJsonDependenciesTypesExpress) == ''">^4.17.21</PackageJsonDependenciesTypesExpress>
+    <PackageJsonDependenciesTypesNode Condition="$(PackageJsonDependenciesTypesNode) == ''">^20.14.7</PackageJsonDependenciesTypesNode>
+    <PackageJsonDependenciesBodyParser Condition="$(PackageJsonDependenciesBodyParser) == ''">^1.20.2</PackageJsonDependenciesBodyParser>
+    <PackageJsonDependenciesCookieParser Condition="$(PackageJsonDependenciesCookieParser) == ''">~1.4.4</PackageJsonDependenciesCookieParser>
+    <PackageJsonDependenciesCors Condition="$(PackageJsonDependenciesCors) == ''">^2.8.5</PackageJsonDependenciesCors>
+    <PackageJsonDependenciesDebug Condition="$(PackageJsonDependenciesDebug) == ''">~2.6.9</PackageJsonDependenciesDebug>
+    <PackageJsonDependenciesExpress Condition="$(PackageJsonDependenciesExpress) == ''">^4.19.2</PackageJsonDependenciesExpress>
+    <PackageJsonDependenciesHttpErrors Condition="$(PackageJsonDependenciesHttpErrors) == ''">~1.6.3</PackageJsonDependenciesHttpErrors>
+    <PackageJsonDependenciesMorgan Condition="$(PackageJsonDependenciesMorgan) == ''">~1.9.1</PackageJsonDependenciesMorgan>
+    <PackageJsonDependenciesPug Condition="$(PackageJsonDependenciesPug) == ''">^3.0.3</PackageJsonDependenciesPug>
+    <PackageJsonDependenciesTypescript Condition="$(PackageJsonDependenciesTypescript) == ''">^5.5.2</PackageJsonDependenciesTypescript>
+    <PackageJsonMain Condition="$(PackageJsonMain) == ''">app.js</PackageJsonMain>
+    <PackageJsonKeywords Condition="$(PackageJsonKeywords) == ''">[]</PackageJsonKeywords>
+    <PackageJsonAuthor Condition="$(PackageJsonAuthor) == ''"></PackageJsonAuthor>
+    <PackageJsonLicense Condition="$(PackageJsonLicense) == ''">ISC</PackageJsonLicense>
+    <PackageJsonDescription Condition="$(PackageJsonDescription) == ''"></PackageJsonDescription>
+  </PropertyGroup>
+</Project>

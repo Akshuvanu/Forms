@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./routes", // Specify where compiled JavaScript files should go
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "routes/**/*.ts" // Adjust this path according to your actual TypeScript source files
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
