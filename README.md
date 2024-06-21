@@ -8,8 +8,8 @@ This repository contains a TypeScript-based Express server that provides endpoin
 ### Getting Started
 
 1. **Clone this repository**
-   git clone https://github.com/Akshuvanu/SlidelyFormAppBackend.git
-   cd SlidelyFormAppBackend
+   git clone https://github.com/Akshuvanu/Forms.git
+   cd Forms
    
 
 2.**Install dependencies**
@@ -30,11 +30,11 @@ This repository contains a TypeScript-based Express server that provides endpoin
 3./read: GET request with a query parameter (index) to retrieve specific form submissions.)
 
 # File Structure
-src/: Contains all TypeScript source files
-src/controllers/: Handles endpoint logic
-src/models/: Defines TypeScript interfaces for data structures
-src/routes/: Defines Express routes
-src/utils/: Contains utility functions
+routes/index.ts: The main routing file that ties all specific route handlers together.
+routes/ping.ts: Handles the /ping endpoint.
+routes/submit.ts: Handles the /submit endpoint for form submissions.
+routes/read.ts: Handles the /read endpoint for retrieving specific submissions.
+server.ts: Configures the Express app, sets up middleware, and starts the server, integrating all the defined routes.
 
 ## Database
 src/db.json: JSON file used as a database to store form submissions
